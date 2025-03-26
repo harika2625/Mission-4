@@ -1,0 +1,18 @@
+#chatbot-toggler {
+  position: fixed;
+  bottom: 60px;
+  right: 35px;
+  border: none;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  cursor: pointer;
+  border-radius: 50%;
+  background: #43c0f6;
+  align-items: center;
+  justify-content: center;
+}
+#chatbot-toggler span {
+  position: absolute;
+  color: #fff;
+}

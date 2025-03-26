@@ -1,0 +1,10 @@
+.chatbox-container {
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  width: 500px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+}
