@@ -33,7 +33,7 @@ You are Tina, an insurance consultant. Help users choose the right insurance pol
 - Always explain the reason for your recommendations.
   `,
 });
-git remote add origin https://github.com/harika2625/Mission-4.git
+
 const generationConfig = {
   temperature: 1,
   topP: 0.95,
