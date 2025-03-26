@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: dockerfile
+    ports:
+      - "3030:80" # Map port 80 of the container to port 80 of the host
+    environment:
+      - REACT_APP_API_URL=http://host.docker.internal:3000 # Backend API URL

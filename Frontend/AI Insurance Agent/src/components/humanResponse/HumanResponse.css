@@ -1,0 +1,25 @@
+.human-response {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem;
+}
+.response {
+  width: 48vh;
+  height: 3vh;
+  border: 2px solid #43c0f6;
+}
+.human-response button {
+  background-color: #43c0f6;
+  color: white;
+  width: 10vh;
+  border: 1px solid black;
+}
+.human-response button:hover {
+  background-color: #196b8f;
+  cursor: pointer;
+}
+.human-response button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
